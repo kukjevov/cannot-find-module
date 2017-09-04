@@ -1,0 +1,14 @@
+{
+    "name": "cannot-find-module",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "tsc": "tsc"
+    },
+    "author": "Marek Bukovsky <marek.bukovsky@asseco-ce.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "8.0.26",
+        "typescript": "2.5.2"
+    }
+}

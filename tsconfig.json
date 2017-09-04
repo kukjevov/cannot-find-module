@@ -1,0 +1,33 @@
+{
+    "compilerOptions":
+    {
+        "target": "es5",
+        "module": "commonjs",
+        "sourceMap": false,
+        "declaration": true,
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "strictNullChecks": true,
+        "traceResolution": true,
+        "outDir": ".",
+        "newLine": "LF",
+        "lib": 
+        [
+            "es2016",
+            "dom"
+        ],
+        "types": 
+        [
+            "node",
+            "sample-module2"
+        ],
+        "typeRoots": 
+        [
+            "./types"
+        ]
+    },
+    "exclude": 
+    [
+        "node_modules"
+    ]
+}
