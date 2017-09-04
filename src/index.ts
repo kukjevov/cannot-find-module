@@ -1,5 +1,5 @@
 import zip = require("sample-module");
-import zip3 = require("../types/sample-module2");
+import zip3 = require("../node_modules/@types-my/sample-module2");
 import zip2 = require("sample-module2");
 
 

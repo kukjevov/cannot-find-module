@@ -4,7 +4,7 @@
         "target": "es5",
         "module": "commonjs",
         "sourceMap": false,
-        "declaration": true,
+        "declaration": false,
         "noImplicitAny": true,
         "moduleResolution": "node",
         "strictNullChecks": true,
@@ -19,11 +19,13 @@
         "types": 
         [
             "node",
+            "sample-module",
             "sample-module2"
         ],
         "typeRoots": 
         [
-            "./types"
+            "node_modules/@types-my",
+            "node_modules/@types"
         ]
     },
     "exclude": 
