@@ -26,7 +26,12 @@
         [
             "node_modules/@types-my",
             "node_modules/@types"
-        ]
+        ],
+        "baseUrl": "",
+        "paths": 
+        {
+            "sample-module2" : ["node_modules/@types-my/sample-module2"]
+        }
     },
     "exclude": 
     [
